@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "see https://adventofcode.com/2022/",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
     "@jest/globals": "^26.6.2",
     "babel-jest": "^26.6.3",
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "prettier": "^3.1.0"
   },
   "scripts": {
     "test": "jest --silent"

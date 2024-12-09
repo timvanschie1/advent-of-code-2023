@@ -31,7 +31,7 @@ function part1(data) {
       });
     });
 
-    numbers = numbers.map(Number); // Converting the numbers back to numbers
+    numbers = numbers.map(Number); // Converting the strings back to numbers
   });
 
   return Math.min(...numbers);

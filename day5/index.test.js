@@ -37,4 +37,4 @@ humidity-to-location map:
 56 93 4`;
 
 test('day 5, part 1', () => expect(part1(testData)).toBe(35));
-test('day 5, part 2', () => expect(part2(testData)).toBe(null));
+test('day 5, part 2', () => expect(part2(testData)).toBe(46));
